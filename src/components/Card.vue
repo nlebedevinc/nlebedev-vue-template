@@ -5,7 +5,35 @@
 
     <div class="card-icons">
       <a href="https://github.com/nlebedevinc">
+        <icon name="envelope" scale="2" />
+      </a>
+
+      <a href="https://github.com/nlebedevinc">
         <icon name="brands/github" scale="2" />
+      </a>
+
+      <a href="https://github.com/nlebedevinc">
+        <icon name="brands/linkedin" scale="2" />
+      </a>
+
+      <a href="https://github.com/nlebedevinc">
+        <icon name="brands/twitter" scale="2" />
+      </a>
+
+      <a href="https://github.com/nlebedevinc">
+        <icon name="brands/medium" scale="2" />
+      </a>
+
+      <a href="https://github.com/nlebedevinc">
+        <icon name="brands/skype" scale="2" />
+      </a>
+
+      <a href="https://github.com/nlebedevinc">
+        <icon name="brands/telegram" scale="2" />
+      </a>
+
+      <a href="https://github.com/nlebedevinc">
+        <icon name="brands/instagram" scale="2" />
       </a>
     </div>
   </div>
@@ -13,7 +41,7 @@
 
 <script>
   export default {
-    name: 'vue-card'
+    name: "vue-card"
   };
 </script>
 
