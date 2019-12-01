@@ -1,35 +1,25 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <particles
       :clickEffect="false"
       color="#dedede"
     />
 
-    <div class="card">
-      <h1>Nikolay Lebedev</h1>
-      <h2>nlebedevinc</h2>
-
-      <div class="card-icons">
-        <a href="https://github.com/nlebedevinc">
-            <icon name="brands/github" scale="2" />
-        </a>
-      </div>
-    </div>
+    <card/>
   </div>
 </template>
 
 <script>
 import 'normalize.css/normalize.css'
-// import HelloWorld from './components/HelloWorld.vue'
+
 import Particles from './components/Particles.vue'
+import Card from './components/Card.vue'
 
 export default {
   name: 'app',
   components: {
-    // HelloWorld
-    Particles
+    Particles,
+    Card
   }
 }
 </script>
@@ -61,21 +51,6 @@ html {
     bottom: 0;
     canvas {
       height: 99% !important;
-    }
-  }
-
-  .card {
-    background-color: #f3f3f3;
-    padding: 50px;
-    text-align: center;
-    z-index: 2;
-
-    .card-icons {
-      margin-top: 30px;
-      svg,
-      img {
-        margin: 10px;
-      }
     }
   }
 }
